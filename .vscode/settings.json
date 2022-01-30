@@ -1,0 +1,17 @@
+{
+  "[css]": {
+    "editor.formatOnSave": false
+  },
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "stylelint.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  "stylelint.snippet": ["css", "less", "postcss", "vue", "sass"],
+  "stylelint.validate": ["css", "less", "postcss", "vue", "sass"]
+}
